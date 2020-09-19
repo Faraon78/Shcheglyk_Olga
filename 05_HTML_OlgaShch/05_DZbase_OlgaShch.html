@@ -61,7 +61,7 @@
                         <INPUT TYPE="text" ID="login" NAME="login" SIZE="15"> <LABEL FOR="login">* Логин</LABEL>
                         <INPUT TYPE="password" ID="Password" NAME="Password" SIZE="15"> <LABEL FOR="Password">* Пароль</LABEL><br>  
                             <label>
-                                <input type="checkbox" name=“val_1"
+                                <input type="checkbox" name="val_1"
                                 id="chbox1" checked> Оставаться в системе                            
                             </label><br>                      
                             <input type="submit" value="Войти">  
@@ -87,6 +87,7 @@
                             <input type="radio" name="name=date_voite" value="value_04" checked> Супер                         
                         </label> <br>
                         <input type="submit" value="Отправить">
+                        <input type="hidden" name="date_voite" value="2013.12.31">
                         <div><em>Есть скрытое поле<br>
                             name=date_voite, value="2013.12.31"</em></div>
                         </fieldset>                      
@@ -163,7 +164,7 @@
                         <div><em>Телефонный номер в формате<br>+ХХХ-ХХ-ХХХХХХХ, где Х - любое число</em></div>                           
                         <input type="text" placeholder="+375-29-1234567" pattern="+[0-9]{3}-[0-9]{2}-[0-9]{7}" name="tel">                
                         <input type="submit" value="Проверить">
-                        </fieldset>                      
+                        </fieldset>             
                     </form>
                 </td>               
             </tr>
