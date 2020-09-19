@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<HTML> 
+    <HEAD>
+        <META charset="utf-8">
+        <TITLE>Olga_05add
+        </TITLE>
+    </HEAD> 
+    <BODY>
+        <H1 align="center">Заполните анкету</H1>
+        <form action="http://sc.it-academy.by/fe/form.php" name="human" method="get">
+            <fieldset>
+            <legend>Личные данные</legend>
+            <input type="text" name="name1" pattern="[А-Яа-я]{1,25}" placeholder="Фамилия" maxlength="25" autofocus required> 
+            <label for ="name1">text: только кириллица, без пробелов, длина поля 25, обязательное поле, автофокус на данном поле</label><br>
+            <input type="text" name="name2" pattern="[А-Яа-я]{1,20}" placeholder="Имя" maxlength="20" required> 
+            <label for ="name2">text: только кириллица, без пробелов, длина поля 20, обязательное поле</label><br>
+            <input type="text" name="name3" pattern="[А-Яа-я]{1,24}" placeholder="Отчество" maxlength="24" required> 
+            <label for ="name3">text: только кириллица, без пробелов, длина поля 24, обязательное поле</label>
+            <fieldset>
+                <legend>Паспортные данные</legend>
+                <div>text: Серия - только заглавные две латинские буквы с длиной 2 и максимальным количеством символов 2, количество букв не менее 2, обязательное поле</div>
+                <div>text: Номер паспорта - только цифры с длиной 7 и максимальным количеством символов 7, количество цифр не менее 7, обязательное поле</div>
+                <input type="text" name="pass1" pattern="[A-Z]{2}" placeholder="AA" maxlength="2" required size="2"> 
+                <input type="text" name="pass2" pattern="[0-9]{7}" placeholder="1234567" maxlength="7" required size="7"> 
+            </fieldset>  
+            <fieldset>
+                <legend>Дата рождения</legend>
+                <input type="text" name="data1" pattern="[0-9]{4}" placeholder="2000" maxlength="4" size="4"> 
+            <label for ="data1">text: год рождения, 4 цифры</label><br>
+            </fieldset> 
+        </fieldset>                      
+    </form>
+    </BODY> 
+</HTML>
