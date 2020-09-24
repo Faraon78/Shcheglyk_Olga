@@ -1,3 +1,12 @@
+body{
+    width: 730px;
+}
+header{
+    text-align: right;
+}
+h1{
+    font-size: 120%;
+}
 h3{
     font-family: 'Bad Script', cursive; 
     font-weight: bold;
@@ -6,4 +15,5 @@ h3{
 }
 article{
     font-family: 'Bad Script', cursive;
+    text-indent: 6mm;
 }
