@@ -1,0 +1,65 @@
+<!DOCTYPE html>  
+<HTML> 
+    <HEAD>
+        <META charset="utf-8">
+            <TITLE>Olga_css2_base3</TITLE>
+            <style>
+            .navi{
+                width: 15em; 
+                background-color: burlywood;
+                margin-bottom: 2em;
+            }
+            .article{
+                background-color: darkcyan;
+                margin-bottom: 2em;
+                
+            }
+            .footer{
+                background-color: indianred;
+            }
+            img{
+                background-color: darkcyan;
+                padding: 10px;
+            }
+            </style>
+    </HEAD> 
+    <BODY>
+        <div class="navi" style="float:left">
+            <h3>Блок навигации</h3>
+            <ul>
+            <li>Ширина 15em</li>
+            <li>Должен присутствовать цвет фона</li>
+            <li>Располагается слева</li>
+            <li>Блок навигации наполните контентом достаточным, чтобы он начинал захватывать вторую статью, как показано в данном примере</li>
+            </ul>
+            Это тоже контент
+        </div>
+        <div>
+            <div style="float: center;">  
+                <div class="article">
+                <h3>Статья 1</h3>
+                Размер блока:<br>
+                Занимает всю доступную ширину<br>
+                Должен присутствовать цвет фона<br>
+                Во всех "статьях" сделайте отступ от соседей равным 2em, при помощи <br>
+                свойства margin-bottom
+                </div>
+                
+                <div class="article">
+                <h3>Статья 2</h3>
+                Размер блока:<br>
+                Занимает всю доступную ширину<br>
+                Должен присутствовать цвет фона<br>
+                Во всех "статьях" сделайте отступ от соседей равным 2em, при помощи <br>
+                свойства margin-bottom. Картинка вставлена при помощи тега, плавание<br>
+                организовано по правому краю внутри данной статьи для этой картинки<br> 
+                <img src= "icon.png" width="50" align="right"> 
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+        </div>
+        <div class="footer" style="clear: both;">
+            Нижний блок, подвал. Занимает всю доступную ширину. Высота определяется помещенным внутрь контентом.
+        </div>
+    </BODY>
+</HTML>    
