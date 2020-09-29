@@ -1,0 +1,91 @@
+<!DOCTYPE html>  
+<HTML> 
+    <HEAD>
+        <META charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+            <TITLE>Olga_css3_base1</TITLE>
+            <style>
+                *{
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                }
+                ul {
+                    list-style: none;
+                }
+                li ul{
+                    display: none;
+                }
+                button {
+                    border-bottom-width:2px ;
+                    width: 180px;
+                    font-size: large;
+                }
+                li:hover ul { 
+                    display: block;
+                }
+                .day{                    
+                    float: left;
+                }
+                @media all and (max-width: 1110px){
+                    .day{                    
+                    clear: both;
+                }
+                li:hover ul { 
+                    display: block;
+                    position: relative; left:100% ; 
+                    
+                }
+                }
+            </style>
+    </HEAD> 
+    <BODY>
+        <ul class="week">
+            <li class="day"><button>Понедельник</button>
+            <ul>
+                <li><button>Завтрак</button></li>
+                <li><button>Обед</button></li>
+                <li><button>Ужин</button></li>
+            </ul>
+        </li>
+            <li class="day"><button>Вторник</button>
+            <ul >
+                <li><button>Завтрак</button></li>
+                <li><button>Обед</button></li>
+                <li><button>Ужин</button></li>
+            </ul>
+        </li>
+            <li class="day"><button>Среда</button>
+            <ul>
+                <li><button>Завтрак</button></li>
+                <li><button>Обед</button></li>
+                <li><button>Ужин</button></li>
+            </ul>
+        </li>    
+        <li class="day"><button>Четверг</button>
+            <ul>
+                <li><button>Завтрак</button></li>
+                <li><button>Обед</button></li>
+                <li><button>Ужин</button></li>
+            </ul>
+        </li>   
+        <li class="day"><button>Пятница</button>
+            <ul>
+                <li><button>Завтрак</button></li>
+                <li><button>Обед</button></li>
+                <li><button>Ужин</button></li>
+            </ul>
+        </li>
+        <li class="day"><button>Суббота</button>
+            <ul>
+                <li><button>Завтрак</button></li>
+                <li><button>Обед</button></li>
+                <li><button>Ужин</button></li>
+            </ul>
+        </li>
+    
+            
+    </ul>
+    
+    </BODY>
+</HTML>    
